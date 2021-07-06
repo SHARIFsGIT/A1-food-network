@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', 'serif';
+}
+.navbar{
+    display: flex;
+    background-image: linear-gradient(crimson, tomato);
+}
+.navbar img{
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+.navbar h1{
+    color: whitesmoke;
+    padding-left: 1%;
+    font-family: 'EB Garamond', 'serif';
+}
+.menu{
+    margin-left: 60%;
+    margin-top: 20px;
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    background-image: linear-gradient(#33D88F,green);
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.flexcont{
+    display: flex;
+}
+.partition{
+    text-align: justify;
+    width: 35%;
+    margin-left: 120px;
+}
+#head1{
+    font-size: 55px;
+}
+.darling{
+    height: 550px;
+    width: 450px;
+    padding-left: 25%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 14px;
+    font-size: 20px;
+    border-radius: 20%;
+    background-image: linear-gradient(crimson, orange);
+    box-shadow: 0px 0px 15px tomato;
+}
+.banner{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.item{
+    text-align: center;
+    padding: 100px 400px 50px 400px ;
+}
+.set-width{
+    width: 33%;
+    margin: 50px 80px 80px 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(102, 158, 175);
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+}
+.item-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+.popularity{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 80px 100px 80px 100px;
+    box-shadow: 0px 0px 20px rgb(102, 158, 175);
+}
+.likes{
+    width: 33%;
+    text-align: center;
+}
+.the-end{
+    text-align: center;
+    padding: 50px;
+    color: grey;
+    background-color: black;
+}
